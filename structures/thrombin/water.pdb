@@ -1,0 +1,54 @@
+TITLE     Merged only Chain L_waters
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+HETATM    1  O   HOH H3009       8.156  -7.073  27.514  1.00 15.91           O  
+ANISOU    1  O   HOH H3009     2252   1234   2560    103   -496    120
+HETATM    2  H1  HOH H3009       8.068  -7.256  28.496  1.00 15.91           H  
+HETATM    3  H2  HOH H3009       8.096  -7.943  27.011  1.00 15.91           H  
+HETATM    4  O   HOH H3043       8.740 -14.998  27.088  1.00 20.97           O  
+ANISOU    4  O   HOH H3043     2917   2369   2681    159   -148    838
+HETATM    5  H1  HOH H3043       9.380 -15.761  26.973  1.00 20.97           H  
+HETATM    6  H2  HOH H3043       9.263 -14.141  27.059  1.00 20.97           H  
+HETATM    7  O   HOH H3049      10.497 -12.761  26.599  1.00 34.31           O  
+ANISOU    7  O   HOH H3049     4318   2081   6638    788  -2162  -1531
+HETATM    8  H1  HOH H3049      10.713 -13.261  25.758  1.00 34.31           H  
+HETATM    9  H2  HOH H3049       9.733 -12.134  26.407  1.00 34.31           H  
+HETATM   10  O   HOH H3071      25.415 -14.921  23.028  1.00 26.49           O  
+ANISOU   10  O   HOH H3071     2740   4244   3081    384   -410   -245
+HETATM   11  H1  HOH H3071      25.985 -14.150  22.730  1.00 26.49           H  
+HETATM   12  H2  HOH H3071      25.876 -15.392  23.782  1.00 26.49           H  
+HETATM   13  O   HOH H3098      12.233  -6.720  24.821  1.00 35.91           O  
+ANISOU   13  O   HOH H3098     3084   7217   3342     11   -867   1956
+HETATM   14  H1  HOH H3098      13.033  -6.591  25.412  1.00 35.91           H  
+HETATM   15  H2  HOH H3098      11.467  -6.183  25.178  1.00 35.91           H  
+HETATM   16  O   HOH H3134      14.579 -10.653  16.051  1.00 43.15           O  
+ANISOU   16  O   HOH H3134     6537   4387   5470  -1706  -4332   1652
+HETATM   17  H1  HOH H3134      15.503 -10.348  15.819  1.00 43.15           H  
+HETATM   18  H2  HOH H3134      14.464 -11.599  15.744  1.00 43.15           H  
+HETATM   19  O   HOH H3160      15.603 -15.456  20.077  1.00 48.58           O  
+ANISOU   19  O   HOH H3160     5537   4371   8549   -467    566   2527
+HETATM   20  H1  HOH H3160      15.688 -14.470  19.906  1.00 48.58           H  
+HETATM   21  H2  HOH H3160      15.065 -15.867  19.340  1.00 48.58           H  
+CONECT    1    2    3
+CONECT    2    1
+CONECT    3    1
+CONECT    4    5    6
+CONECT    5    4
+CONECT    6    4
+CONECT    7    8    9
+CONECT    8    7
+CONECT    9    7
+CONECT   10   11   12
+CONECT   11   10
+CONECT   12   10
+CONECT   13   14   15
+CONECT   14   13
+CONECT   15   13
+CONECT   16   17   18
+CONECT   17   16
+CONECT   18   16
+CONECT   19   20   21
+CONECT   20   19
+CONECT   21   19
+END   
