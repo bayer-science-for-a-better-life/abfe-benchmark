@@ -2,7 +2,7 @@
 ;   File ./parameters/p38/ligand2/complex.top  was generated
 ;   By user: glirq (312548)
 ;   On host: wdec038538
-;   At date: Tue. February  2 17:31:50 2022
+;   At date: Thu. April  4 14:00:46 2022
 ;
 ;   This is a standalone topology file
 ;
@@ -11,7 +11,7 @@
 ;   Executable:   ipykernel_launcher.py
 ;   Library dir:  /berlin/glirq/packages/anaconda3.7/envs/binder-env/share/gromacs/top
 ;   Command line:
-;     /berlin/glirq/packages/anaconda3.7/envs/binder-env/lib/python3.9/site-packages/ipykernel_launcher.py -f /berlin/glirq/.local/share/jupyter/runtime/kernel-0d44b73e-4cf2-4de0-8aab-fe08ce93e86b.json
+;     /berlin/glirq/packages/anaconda3.7/envs/binder-env/lib/python3.9/site-packages/ipykernel_launcher.py -f /berlin/glirq/.local/share/jupyter/runtime/kernel-804e1049-3cfd-4972-8b6e-45f0af642b34.json
 ;
 
 [ defaults ]
@@ -22,8 +22,8 @@
 ; name    at.num    mass    charge ptype  sigma      epsilon
 C1             6  12.010780  0.00000000  A     0.33795318     0.45538912
 C2             6  12.010780  0.00000000  A     0.34806469     0.36350306
-O1             8  15.999430  0.00000000  A     0.30398122     0.87950233
-H1             1   1.007947  0.00000000  A     0.25832257    0.068656285
+O1             8  15.999430  0.00000000  A     0.31507524       0.635968
+H1             1   1.007947  0.00000000  A              1              0
 N1             7  14.006720  0.00000000  A      0.3206876      0.7016213
 H2             1   1.007947  0.00000000  A     0.24536265    0.054839681
 H3             1   1.007947  0.00000000  A     0.25725815     0.06531786
@@ -34,7 +34,6 @@ H6             1   1.007947  0.00000000  A     0.24419228     0.06191251
 H7             1   1.007947  0.00000000  A     0.25105526        0.06276
 S1            16  32.065500  0.00000000  A     0.35635949          1.046
 H8             1   1.007947  0.00000000  A     0.24214627        0.06276
-O3             8  15.999430  0.00000000  A     0.31507524       0.635968
 F1             9  18.998403  0.00000000  A     0.31181455       0.255224
 
 
@@ -56189,43 +56188,6 @@ system2          3
 
 [ moleculetype ]
 ; Name            nrexcl
-HOH          3
-
-[ atoms ]
-;   nr       type  resnr residue  atom   cgnr    charge       mass  typeB    chargeB      massB
-; residue    1 HOH rtp HOH q 0.0
-    1         O3      1    HOH      O      1 -0.83400000  15.999430   ; qtot -0.834000
-    2         H4      1    HOH     H1      2 0.41700000   1.007947   ; qtot -0.417000
-    3         H4      1    HOH     H2      3 0.41700000   1.007947   ; qtot 0.000000
-
-#ifdef FLEXIBLE
-
-[ bonds ]
-;    ai     aj funct         c0         c1         c2         c3
-      2      1     1   0.09572 462750.400000
-      3      1     1   0.09572 462750.400000
-
-[ angles ]
-;    ai     aj     ak funct         c0         c1         c2         c3
-      2      1      3     1   104.5200000 836.800000
-
-
-#else
-
-[ settles ]
-; i     funct   doh     dhh
-1     1   0.09572000   0.15139007
-
-#endif
-
-[ exclusions ]
-1  2  3
-2  1  3
-3  1  2
-
-
-[ moleculetype ]
-; Name            nrexcl
 LIG          3
 
 [ atoms ]
@@ -56704,6 +56666,43 @@ LIG          3
      27     28     45     26     1  180.0000000  1.5341333  2
      27     45     26     28     1  180.0000000  1.5341333  2
 
+
+[ moleculetype ]
+; Name            nrexcl
+HOH          3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr    charge       mass  typeB    chargeB      massB
+; residue    1 HOH rtp HOH q 0.0
+    1         O1      1    HOH      O      1 -0.83400000  15.999430   ; qtot -0.834000
+    2         H1      1    HOH     H1      2 0.41700000   1.007947   ; qtot -0.417000
+    3         H1      1    HOH     H2      3 0.41700000   1.007947   ; qtot 0.000000
+
+#ifdef FLEXIBLE
+
+[ bonds ]
+;    ai     aj funct         c0         c1         c2         c3
+      2      1     1   0.09572 462750.400000
+      3      1     1   0.09572 462750.400000
+
+[ angles ]
+;    ai     aj     ak funct         c0         c1         c2         c3
+      2      1      3     1   104.5200000 836.800000
+
+
+#else
+
+[ settles ]
+; i     funct   doh     dhh
+1     1   0.09572000   0.15139007
+
+#endif
+
+[ exclusions ]
+1  2  3
+2  1  3
+3  1  2
+
 [ system ]
 ; Name
 Generic title
@@ -56712,5 +56711,5 @@ Generic title
 ; Compound       #mols
 system1              1
 system2              1
-HOH                 10
 LIG                  1
+HOH                 10
