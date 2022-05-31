@@ -134,3 +134,5 @@ experimental_values.csv
 maestro_prep/
 maestro_setup_2/
 ~$experimental_values.xlsx
+*#
+OLD_burn_in_parameter_generation.ipynb

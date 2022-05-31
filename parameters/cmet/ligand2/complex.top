@@ -1,7 +1,7 @@
 ;
 ;   File ./parameters/cmet/ligand2/complex.top  was generated
-;   By user: glirq (312548)
-;   On host: wdec038538
+;   By user: XXXXX (XXXXX)
+;   On host: XXXXX
 ;   At date: Thu. April  4 13:32:49 2022
 ;
 ;   This is a standalone topology file
@@ -9,9 +9,9 @@
 ;   Created by:
 ;   ParmEd:       ipykernel_launcher.py, VERSION 3.4.3
 ;   Executable:   ipykernel_launcher.py
-;   Library dir:  /berlin/glirq/packages/anaconda3.7/envs/binder-env/share/gromacs/top
+;   Library dir:  /XXXXX/XXXXX/packages/anaconda3.7/envs/binder-env/share/gromacs/top
 ;   Command line:
-;     /berlin/glirq/packages/anaconda3.7/envs/binder-env/lib/python3.9/site-packages/ipykernel_launcher.py -f /berlin/glirq/.local/share/jupyter/runtime/kernel-804e1049-3cfd-4972-8b6e-45f0af642b34.json
+;     /XXXXX/XXXXX/packages/anaconda3.7/envs/binder-env/lib/python3.9/site-packages/ipykernel_launcher.py -f /XXXXX/XXXXX/.local/share/jupyter/runtime/kernel-804e1049-3cfd-4972-8b6e-45f0af642b34.json
 ;
 
 [ defaults ]
